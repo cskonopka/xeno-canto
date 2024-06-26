@@ -1,11 +1,10 @@
-<p align="center">
-  <img width="47%" height="47%" src="https://i.ibb.co/7JYvGQ5/n4m-supplemental.png"/>  
-</p>
+<h3 align="center">
+  <img height="30%" width="30%" src="https://github.com/cskonopka/xeno-canto/blob/main/img/xeno-canto-logo.png?raw=true"/>
+</h3>
 
-# xeno-canto (aka "Rainforest Tools")
-Create a bird sound sample with birds from around the globe using Node-for-Max. The alternate name for the project is "Rainforest Tools"
+<p align="center"><em>Bird-based audio sampler using bird sounds from around the globe using Node-for-Max. </em></p> 
 
-# Requirements
+# Background
 In 2018 the visual programming language [Max](http://www.cycling74.com) made a big leap forward by officially integrating the server-side language Node.js for the release of Max8. [Node-for-Max](https://cycling74.com/articles/node-for-max-intro-%E2%80%93-let%E2%80%99s-get-started) enables users the ability to integrate internet-based sources into their projects using Node.js and ideas can be spunup with ease using [npm](https://www.npmjs.com/). The connections paves the way for scalability and opens the door to new forms of data research for scientists and artists.
 
 <p align="center">
@@ -18,6 +17,11 @@ For this post I wanted to create a Node-for-Max project focused on extracting au
 
 The project can be found [here](https://github.com/cskonopka/n4m-supplemental/tree/master/xeno-canto).
 
+# Video Example
+
+https://github.com/cskonopka/xeno-canto/assets/7625379/dd0a4751-e51a-4f13-87bf-a8115cf4dedd
+
+
 # Requirements
 
 - [Max8](https://cycling74.com/products/max-features)
@@ -25,7 +29,7 @@ The project can be found [here](https://github.com/cskonopka/n4m-supplemental/tr
 - [shelljs](https://www.npmjs.com/package/shelljs)
 - [FFmpeg](https://github.com/adaptlearning/adapt_authoring/wiki/Installing-FFmpeg)
 
-# Research Between the Feathers
+# Research
 
 I started by searching for “free bird sound apis” using Google and found [xeno-canto](https://www.xeno-canto.org/), a website for “sharing bird sounds from around the world”.
 
